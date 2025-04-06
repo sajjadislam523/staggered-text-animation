@@ -1,12 +1,38 @@
-# React + Vite
+# Staggered Text Animation with Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple demonstration of staggered text animations built with React and [Framer Motion](https://www.framer.com/motion/). The animation sequentially reveals text elements with a smooth stagger effect, making your UI more engaging and visually appealing.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project leverages Framer Motion's variants and transition features to create an attractive staggered animation effect. The effect can be used to highlight text in a dynamic way, drawing user attention to important information.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Staggered Animation:** Text elements animate in sequence for a dynamic, engaging effect.
+-   **Customizable Parameters:** Easily adjust delays, durations, and other animation properties to suit your design.
+-   **Responsive Design:** The animation works seamlessly on various screen sizes.
+-   **Modern Tools:** Built with React and Framer Motion for smooth and high-performance animations.
+
+## Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/sajjadislam523/staggered-text-animation.git
+cd staggered-text-animation
+npm install
+
+## Usage
+
+To run the project locally, start the development server:
+
+-   npm run dev
+
+## Customization
+
+You can modify the animation settings by adjusting the Framer Motion variants in the animation component. Customize delays, easing functions, and durations to achieve your desired effect. You can also modify the styling to match your design requirements.
+
+## Build
+
+To create an optimized production build:
+
+-   npm run build
